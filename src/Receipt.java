@@ -8,7 +8,8 @@ public class Receipt {
 		date=day; month=m; year=y; price=p; amount=a; distance=dist; 
 	} 
 	
-	//get methods public int getDate() { return date; }
+	//get methods 
+	public int getDate() { return date; }
 	public int getMonth() { return month; }	
 	public int getYear() { return year; }	
 	public double getPrice() { return price; }
@@ -27,7 +28,7 @@ public class Receipt {
 	public String toString() { 
 		return "Date of fueling(MM/DD/YY): "+month+"/"+date+"/"+year+"\nThe cost: "+price+"\nAmount of gas purchased: "+amount+"\nDistance travelled: "+distance; 
 	}
-	
+	// this is a test
 	public static void main(String[] args){ 
 		
 		Receipt r=new Receipt(01,02,2010,1.2,20,200); 
